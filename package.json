@@ -1,0 +1,23 @@
+{
+  "name": "solution",
+  "homepage": "http://andyleezhou.github.io/userCRUD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "uniqueid": "^1.0.0"
+  }
+}
